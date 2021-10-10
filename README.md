@@ -30,7 +30,7 @@ $ cd prajwalsv.dev
 $ npm install
 ```
 
-3. Run the server and view the app on http://localhost:3001
+3. Run the server and view the app on http://localhost:8000
 ```sh
 $ npm start
 ```
