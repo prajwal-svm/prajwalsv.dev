@@ -3,6 +3,9 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {},
+    backgroundSize: {
+      header: '100% 400px'
+    }
   },
   variants: {
     extend: {},
