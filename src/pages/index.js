@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react"
-import AboutMe from "./components/AboutMe"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import WorkExp from "./components/WorkExp"
+import AboutMe from "../components/AboutMe"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import WorkExp from "../components/WorkExp"
 
 const $window = typeof window !== 'undefined' ? window : { localStorage: { getItem: () => null, setItem: () => null } }
 
@@ -24,7 +24,7 @@ const Root = () => {
 
   return (
     <>
-      <Header darkMode={darkMode} setDarkMode={setDarkMode} $window={window} />
+      <Header darkMode={darkMode} setDarkMode={setDarkMode} $window={$window} />
       <AboutMe />
       <WorkExp darkMode={darkMode} />
       <Footer />

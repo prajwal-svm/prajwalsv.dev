@@ -46,7 +46,7 @@ const Footer = () => {
 
                 <div className="flex items-center justify-evenly flex-wrap w-[500px] mx-auto mt-6">
                     {
-                        SocialMediaHandlers.map((x, i) => <a key={i} href={x.to} target="_blank" className={`w-[60px] h-[60px] bg-[${x.branding}] rounded-lg p-3`}> {x.icon} </a>)
+                        SocialMediaHandlers.map((x, i) => <a key={i} href={x.to} target="_blank" className={`w-[60px] h-[60px] rounded-lg p-3 bg-[${x.branding}]`}> {x.icon} </a>)
                     }
                 </div>
                 <hr className="w-[340px] mx-auto mt-10 border-[#5861E5] bg-[#5861E5] border-1 rounded-full" />
