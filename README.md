@@ -1,6 +1,6 @@
-### Note: The Project development is in progress!
+### Note: The Project development is discontinued! Please Checkout for newer developments regarding [my-digital-space](https://github.com/Prajwal-S-Venkatesh/personal-website)
 
- <img alt="" src="https://img.shields.io/static/v1?label=Status&message=In Development&color=green">
+ <img alt="" src="https://img.shields.io/static/v1?label=Development Status&message=Discontinued&color=red">
 
 
 # My Digital Space
